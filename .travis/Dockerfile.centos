@@ -16,6 +16,7 @@ RUN yum -y install \
   python34-devel \
   python-devel \
   /usr/bin/python3.4 \
+  # python2.7 is on only CentOS7. python2.6 is on CentOS6.
   /usr/bin/python2.7 \
   # -- RPM packages required for a specified case --
   /usr/bin/git \
